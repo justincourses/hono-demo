@@ -7,7 +7,7 @@ app.get('/', (c) => {
 })
 
 app.get("/health", (c) => {
-  return c.json({ status: "OK" });
+  return c.json({ status: "I am healthy!" });
 });
 
 app.get("/client", (c) => {
